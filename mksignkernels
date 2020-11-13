@@ -20,8 +20,8 @@ CERT = $(PKI)/DatabaseKey.crt
 
 # directories
 BOOT = /boot
-ESP  = $(BOOT)/efi
-OUT  = $(ESP)/EFI/Linux
+ESP  = $(BOOT)/EFI
+OUT  = $(ESP)/Linux
 
 # what's needed for a single kernel
 ID        = $*
